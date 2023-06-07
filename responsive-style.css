@@ -1,0 +1,289 @@
+@media (max-width:1199px){
+    .flex-banner{
+        width: 463px;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+@media (max-width:991px){
+    .text{
+       text-align: center; 
+    }
+    .banner-btn{
+        justify-content: center;
+    }
+    .flex-banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+    .first-row{
+        justify-content: center;
+    }
+    .cus-col{
+        margin-top: 100px;
+    }
+    .custumer{
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    .menu label{
+        display: block;
+    }
+    .menu label::before{
+        content: "\2261";
+        color: white;
+        font-size: 44px;
+    } 
+    .menu ul{
+        position: absolute;
+        top: 142px;
+        color: white;
+        background: #0A2640;
+        right: 0;
+        left: -266px;
+        z-index: 3;
+        height: calc(69vh - 189px);
+        display: flex;
+        /* justify-content: center; 
+        align-items: center;  */
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate(-200px,-6px);
+        -webkit-transform: translate(-200px,-6px);
+        -moz-transform: translate(-200px,-6px);
+        transition: 0.6s ease;
+
+    }   
+    .menu input:checked + label::before{
+        content: "\00d7";
+        color: white;
+    }
+    .menu input:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.02);
+    }
+    .input-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-btn input{
+        width: 100%;
+    }
+    .second-text h1{
+        font-size: 20px;
+        line-height: 32px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .first-side {
+       text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .service-text h1{
+        font-size: 25px;
+    }
+    .service-text h6{
+        font-size: 15px;
+    }
+    .custumer-text h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .spn-text{
+        font-size: 15px;
+    }
+    .after-2::after{
+        top: 287px;
+        left: 150px;
+    }
+    .main-btn{
+        padding: 1rem 1rem;
+        font-size: 14px;
+    }
+    .custumer-btn{
+        padding: 1rem 1rem;
+        font-size: 14px;
+    }
+    .text-banner h1{
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .grid-text{
+        text-align: center;
+    }
+    .grid-text h1{
+        font-size: 29px;
+        line-height: 50px;
+    }
+    .grid-text p{
+        font-size: 15px;
+        line-height: 29px;
+    }
+    .counter-text h6{
+        font-size: 16px;
+    }
+    .counter-text h1{
+        font-size: 34px;
+        line-height: 56px;
+    }
+    .counter-number h1 span{
+        font-size: 65px;
+    }
+    .counter-number h1{
+        font-size: 65px;
+    }
+    .team-text{
+        text-align: center;
+    }
+    .team-text h1{
+        font-size: 15px;
+    }
+    .team-text h6{
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .team-text p{
+        font-size: 15px;
+    }
+    .about-row{
+        justify-content: center;
+    }
+    .values-text{
+        text-align: center;
+    }
+    .values-text h1{
+        font-size: 15px;
+    }
+    .values-text h6{
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .values-text p{
+        font-size: 15px;
+    }
+    .flex-row{
+        text-align: center;
+    }
+    .email-text h1{
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .costumer-second {
+        margin: 44px 0px;
+    }
+    .text h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .customer-2{
+        margin-top: 0;
+    }
+    .customer-2-text h1 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .spn-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .heading h1{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .product-heading p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .product-heading h1{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .product {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .grid-text{
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width:550px){
+    .custumer-text{
+        margin-top: 100px;
+    }
+    .afterr::after {
+        left: 125px;
+        top: 180px;
+    }
+}
+
+@media (max-width:575px){
+    /* .li-span{
+        left: 313px;
+    } */
+    .span-text{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:449px){
+    /* .li-span{
+        left: 250px;
+    } */
+}
+
+
+@media (max-width:399px){
+    .afterr::after{
+        display: none;
+    }
+    .custumer-text{
+        margin-top: 0px;
+    }
+    .after-2::after{
+        display: none;
+    }
+    .cus-col{
+        margin-top: 0;
+    }
+}
+
+@media (max-width:367px){
+    /* .li-span{
+        left: 212px;
+    } */
+    .atempt-card {
+        padding: 20px 12px;
+    }
+    .atempt-cards{
+        padding: 20px 0px;
+    }
+    .atempt1-card {
+        padding: 20px 12px;
+    }
+}
