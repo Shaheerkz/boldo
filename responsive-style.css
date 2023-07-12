@@ -101,8 +101,12 @@
     .card{
         width: 100%;
     }
+    .service-text{
+        padding: 20px;
+    }
     .service-text h1{
         font-size: 25px;
+        line-height: 2;
     }
     .service-text h6{
         font-size: 15px;
@@ -119,11 +123,11 @@
         left: 150px;
     }
     .main-btn{
-        padding: 1rem 1rem;
+        padding: 0.725rem 0.725rem;
         font-size: 14px;
     }
     .custumer-btn{
-        padding: 1rem 1rem;
+        padding: 0.725rem 0.725rem;
         font-size: 14px;
     }
     .text-banner h1{
